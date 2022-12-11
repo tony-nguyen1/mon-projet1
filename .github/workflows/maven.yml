@@ -33,6 +33,7 @@ jobs:
   running:
   
     runs-on: ubuntu-latest
+    needs: build
     
     steps:
     - name: Executing the jar to see

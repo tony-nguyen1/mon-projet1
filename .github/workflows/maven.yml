@@ -44,5 +44,7 @@ jobs:
         check-latest: true
     - name: Executing the jar to see
       run: |
+        ls
+        ls target
         java -jar ./target/presentation-1.0-SNAPSHOT.jar
         echo "Beep Boop"

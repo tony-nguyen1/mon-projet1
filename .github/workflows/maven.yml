@@ -50,5 +50,5 @@ jobs:
       run: |
         ls
         ls target
-        java -jar ./target/presentation-1.0-SNAPSHOT.jar
+        java -jar ./presentation-1.0-SNAPSHOT.jar
         echo "Beep Boop"

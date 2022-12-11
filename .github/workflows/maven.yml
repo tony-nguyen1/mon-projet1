@@ -42,4 +42,5 @@ jobs:
         release_name: Release ${{ github.ref }}
         draft: false
         prelease: false
+        file: target/presentation-1.0-SNAPSHOT.jar
       

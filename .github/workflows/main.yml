@@ -1,0 +1,14 @@
+name: Montrer mes secrets
+
+on: workflow_dispatch
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Recuperation du secret
+        with:
+          super_secret: ${{ secrets.SECRET_TRES_SECRET }}
+      - name: Echo-ing
+        run: echo $super_secret
